@@ -1,19 +1,21 @@
 package Chapter5;
 
-class OverloagTest {
-    OverloagTest() {
-        System.out.println("Создан объект");
-    }
 
-    OverloagTest(String param) {
-        System.out.println("Создан объект с параметром " + param);
-    }
-
-}
 
 public class Task_3_4_OverloadingConstructors {
+
+    static class OverloadTest {
+        OverloadTest() {
+            System.out.println("Создан объект");
+        }
+
+        OverloadTest(String param) {
+            System.out.println("Создан объект с параметром " + param);
+        }
+
+    }
     public static void main(String[] args) {
-        OverloagTest test1 = new OverloagTest();
-        OverloagTest test2 = new OverloagTest("param");
+        OverloadTest test1 = new OverloadTest();
+        OverloadTest test2 = new OverloadTest("param");
     }
 }
