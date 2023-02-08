@@ -4,7 +4,7 @@ public class Task_2_FieldsInitialization {
 
     static class Person {
         private String name;
-        private int age = 50;
+        private String citizen = "Ukraine";
 
         Person (String name) {
             this.name = name;
@@ -18,7 +18,7 @@ public class Task_2_FieldsInitialization {
         public String toString() {
             return "Person{" +
                     "name='" + name + '\'' +
-                    ", age=" + age +
+                    ", citizen " + citizen +
                     '}';
         }
     }
