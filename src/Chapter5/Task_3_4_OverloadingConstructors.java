@@ -10,7 +10,7 @@ public class Task_3_4_OverloadingConstructors {
         }
 
         OverloadTest(String param) {
-            System.out.println("Создан объект с параметром " + param);
+            System.out.println("Создан бъект с параметром " + param);
         }
 
     }
